@@ -1,0 +1,75 @@
+---
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About — Chirag Dodiya, Senior Bubble Developer</title>
+    <meta name="description" content="Learn about Chirag Dodiya: Senior Bubble Developer, no-code expert, and SaaS builder for startups and founders." />
+    <meta property="og:title" content="About — Chirag Dodiya, Senior Bubble Developer" />
+    <meta property="og:description" content="Discover Chirag Dodiya’s background, Bubble expertise, and approach to building world-class no-code web apps and automations." />
+    <meta property="og:type" content="profile" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body class="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col">
+    <Navbar />
+
+    <main class="flex flex-1 flex-col items-center px-4 py-16 lg:py-28">
+      <section class="max-w-3xl w-full mx-auto bg-white dark:bg-gray-800 rounded-xl shadow border border-gray-100 dark:border-gray-800 p-8 text-center">
+        <img
+          src="https://pbs.twimg.com/profile_images/1742127779993550848/-qVtGtZo_400x400.jpg"
+          alt="Chirag Dodiya profile"
+          class="w-28 h-28 rounded-full mx-auto mb-6 border-4 border-green-500 shadow-lg object-cover"
+          loading="lazy"
+        />
+        <h1 class="text-3xl sm:text-4xl font-extrabold mb-2">
+          About Chirag Dodiya
+          <span class="block text-green-600 dark:text-green-400 text-xl font-semibold mt-1">Senior Bubble Developer</span>
+        </h1>
+        <p class="text-lg text-gray-700 dark:text-gray-300 mb-6">
+          I’m Chirag—an entrepreneur, product builder, and <span class="font-semibold text-green-600 dark:text-green-400">senior Bubble developer</span> with 7+ years in the web space. My mission: help ambitious founders and teams launch faster with scalable, production-quality no-code apps.
+        </p>
+        <div class="text-left text-base mb-8">
+          <ul class="list-disc ml-6 text-gray-600 dark:text-gray-200 space-y-3">
+            <li>
+              <span class="font-semibold text-green-700 dark:text-green-400">Expertise:</span> MVPs, SaaS platforms, custom dashboards, workflow automations, and third-party integrations—all built on Bubble.
+            </li>
+            <li>
+              <span class="font-semibold text-green-700 dark:text-green-400">Process:</span> User-focused design, data architecture done right, rapid prototyping, transparent communication, and shipping on time—every time.
+            </li>
+            <li>
+              <span class="font-semibold text-green-700 dark:text-green-400">Why Bubble:</span> It empowers rapid iteration and full-stack capability with speed. No code, no compromise.
+            </li>
+          </ul>
+        </div>
+        <div class="mb-8">
+          <h2 class="text-xl font-bold mb-2 text-green-700 dark:text-green-400">How I Can Help</h2>
+          <p class="text-gray-700 dark:text-gray-300 mb-2">Whether you need an MVP, to automate internal ops, or launch a SaaS, I’ll help you turn your ideas into robust, scalable digital products using Bubble.</p>
+          <ul class="flex flex-wrap items-center justify-center gap-4 mt-3">
+            <li class="bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-400 px-4 py-2 rounded-lg font-semibold text-sm">Bubble App Builds</li>
+            <li class="bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-400 px-4 py-2 rounded-lg font-semibold text-sm">API/Workflow Integration</li>
+            <li class="bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-400 px-4 py-2 rounded-lg font-semibold text-sm">No-Code Coaching</li>
+          </ul>
+        </div>
+        <div class="mt-10">
+          <h2 class="text-xl font-bold mb-4">Let’s Connect</h2>
+          <p class="text-gray-700 dark:text-gray-200 mb-6">
+            Interested in building with Bubble or upgrading your digital stack?
+            Reach out for a consultation—I’m open to new projects, partnerships, or just a chat about the future of no-code!
+          </p>
+          <a
+            href="mailto:chirag@dodiya.in"
+            class="inline-block px-7 py-3 bg-green-700 dark:bg-green-500 text-white font-bold rounded-lg transition hover:bg-green-800 dark:hover:bg-green-400 focus:outline-none focus:ring-4 focus:ring-green-300 focus:ring-offset-2"
+          >
+            Contact Chirag
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <Footer />
+  </body>
+</html>
